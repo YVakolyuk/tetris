@@ -67,6 +67,8 @@ public interface Figure {
         public abstract Figure createNewFigure();
     }
 
+	int getNewYear();
+
     int getLeft();
 
     int getRight();
